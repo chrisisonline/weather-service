@@ -1,0 +1,26 @@
+{
+  "name": "weather-service",
+  "version": "1.0.0",
+  "description": "Simple web app to display weather data from several cities from across the world",
+  "main": "index.js",
+  "scripts": {
+    "css": "npx tailwindcss -o styles.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisisonline/weather-service.git"
+  },
+  "author": "Chris Jiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisisonline/weather-service/issues"
+  },
+  "homepage": "https://github.com/chrisisonline/weather-service#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  }
+}
