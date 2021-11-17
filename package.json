@@ -1,26 +1,45 @@
 {
   "name": "weather-service",
-  "version": "1.0.0",
-  "description": "Simple web app to display weather data from several cities from across the world",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "css": "npx tailwindcss -o styles.css --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chrisisonline/weather-service.git"
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "vue": "^3.0.0"
   },
-  "author": "Chris Jiang",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/chrisisonline/weather-service/issues"
-  },
-  "homepage": "https://github.com/chrisisonline/weather-service#readme",
-  "dependencies": {},
   "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
     "autoprefixer": "^10.4.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
     "postcss": "^8.3.11",
     "tailwindcss": "^2.2.19"
-  }
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
 }
