@@ -12,7 +12,7 @@ export const cities = [
     imgUrl: "https://unsplash.com/photos/OkiDIla7K8Q/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTB8fHJpbyUyMGRlJTIwamFuZWlyb3x8MHx8fHwxNjM3MTIxMjk3&force=true&w=640",
   },
   {
-    cityname: "Monte Video",
+    cityname: "Monte Carlo",
     imgUrl: "https://unsplash.com/photos/GT4TGeuZZp0/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTJ8fG1vbnRlJTIwY2FybG98fDB8fHx8MTYzNzEyMTMyOQ&force=true&w=640",
     
   },

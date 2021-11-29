@@ -6,7 +6,14 @@
       </li>
       <li class="flex-grow"></li>
       <li class="">
-        <a class="inline-block py-1.5 px-6 border rounded bg-green-500 text-white" href="#">Login</a>
+        <a
+          v-if="this.$.vnode.key"
+          class="inline-block py-1.5 px-6 border rounded bg-green-500 text-white"
+          href="#"
+          @click="this.$emit('log-out')"
+        >
+          Logout
+        </a>
       </li>
     </ul>
   </nav>

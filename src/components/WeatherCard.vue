@@ -75,7 +75,8 @@
       ArrowNarrowDownIcon
     },
     created() {
-      axios.get("https://api.openweathermap.org/data/2.5/weather?q=toronto&units=metric&appid="+ process.env.VUE_APP_OPENWEATHER_API)
+      var cityname = this.cityInfo.cityname
+      axios.get("https://api.openweathermap.org/data/2.5/weather?q="+cityname+"&units=metric&appid="+ process.env.VUE_APP_OPENWEATHER_API)
         .then( res => {
           this.OWData = res.data;
           console.log(this.OWData);
